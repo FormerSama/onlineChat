@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>OnlineChat</title>
+    <style>
+        @import url(EnterPort.css);
+    </style>
+
+</head>
+
+<body>
+    <div class="container" id="container">
+        <h1 id="mainTitle">OnlineChat</h1>
+        <h2 id="messages">登入帳號進行聊天</h2>
+        <span>
+            <div class="textFieldContainer">
+                <label class="label" id="username">帳號</label>
+                <input type="text" class="textField" id="username_textfield">
+                <br>
+                <label class="label" id="password">密碼</label>
+                <input type="password" class="textField" id="password_textfield">
+
+                <form action="#">
+                    <button id="signIn" class="button" value="signIn">登入</button>
+
+                    <button id="signUp" class="button" value="signUp">註冊</button>
+
+                </form>
+            </div>
+        </span>
+    </div>
+    <script src="./EnterPort.js"></script>
+
+
+</body>
+
+</html>
